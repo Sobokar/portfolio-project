@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Yevheniia Sobokar</title>
+    <meta
+      name="description"
+      content="Choose a way to contact Yevheniia which suits you more. All the details on one page"
+    />
+    <title>Contact info of Yevheniia Sobokar</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,6 +27,36 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="/images/small_logo.png"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Yevheniia">About</a>
+          </li>
+          <li>
+            <a href="/works.html" title="Yevheniia's Works">Works</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Yevheniia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="content">
         <h1 class="mb-4">Let's get in touch!</h1>
@@ -38,5 +72,59 @@
         </p>
       </div>
     </div>
+    <footer class="mb-5 container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let’s work together and I’ll help you by all my best
+          </p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact info"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <a
+        href="mailto:eugenabond@gmail.com"
+        class="email-link d-block text-center mb-5"
+      >
+        eugenabond@gmail.com
+      </a>
+
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/Sobokar"
+          target="_blank"
+          title="GitHub profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+        <a
+          href="https://instagram.com/eugenia.sobokar"
+          target="_blank"
+          title="Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <p class="text-center mt-5 mb-5">
+      ✌️ This project was coded by Yevheniia Sobokar and it is
+      <a
+        href="https://github.com/Sobokar/portfolio-project"
+        target="_blank"
+        title="GitHub Repository"
+        >open-sourced</a
+      >
+    </p>
   </body>
 </html>
